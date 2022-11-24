@@ -1,0 +1,46 @@
+h1 {
+	font-family: 'Eczar', serif;
+	color: #6D9886;
+}
+
+#navbar {
+	background-color: #01161E;
+}
+
+#navItem :hover {
+	animation: pulsate 1s ease-in-out;
+}
+
+#jumbotron {
+	background-color: #124559;
+}
+
+.profile {
+	background-color: #598392;
+}
+
+.cards {
+	background-color: #EFF6E0;
+}
+
+.learn-more {
+	animation: pulsate 1s ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+	0% {
+		box-shadow:
+			0 0 25px #5ddcff,
+			0 0 50px #5bc0de;
+
+	}
+}
+
+#projectDetails {
+	color: white !important;
+}
+
+#jeffAgpalo {
+	color: whitesmoke !important;
+}
